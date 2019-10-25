@@ -1,0 +1,15 @@
+http://fontawesome.io/
+
+Using CSS
+
+1. Copy the entire font-awesome directory into your project.
+2. In the <head> of your html, reference the location to your font-awesome.min.css.
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+3. Check out the examples to start using Font Awesome!
+
+Using Sass or Less
+Use this method to customize Font Awesome 4.7.0 using Less or Sass.
+
+1.Copy the font-awesome/ directory into your project.
+2.Open your project's font-awesome/less/variables.less or font-awesome/scss/_variables.scss and edit the @fa-font-path or $fa-font-path variable to point to your font directory.
+@fa-font-path:   "../font";
